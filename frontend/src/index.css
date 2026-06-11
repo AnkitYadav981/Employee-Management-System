@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@layer theme {
+  --font-dancing: "Dancing Script", cursive;
+}
+
+@layer utilities {
+  .font-dancing {
+    font-family: "Dancing Script", cursive;
+  }
+}
